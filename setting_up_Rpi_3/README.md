@@ -10,6 +10,10 @@ This tutorial deals with configuring Raspberry pi 3 in linux environment.
   systems depending on the application. In this tutorial I will be
   configuring [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) os. Download the image from [here](https://www.raspberrypi.org/downloads/raspbian/).
 - Connect memory card to your computer/laptop, open up a terminal and type the command
-``$lsblk``. Note the name of the card (usually sdb/sdc) and verify by looking at the size colum corresponding to that name.
+
+> ``$lsblk``. 
+
+Note the name of the card (usually sdb/sdc) and verify by looking at the size colum corresponding to that name.
 - Run the following command in terminal. Replace paths accordinly.
-``$sudo dd bs=1M if=/path/to/your/raspbian/img of=/dev/your_card_name_without_any_number status=progress conv=fsync``
+
+> ``$sudo dd bs=1M if=/path/to/your/raspbian/img of=/dev/your_card_name_without_any_number status=progress conv=fsync``
