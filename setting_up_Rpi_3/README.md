@@ -89,7 +89,7 @@ Now the initial set up is over...
 - **Expand filesystem.**
     - ssh into Rpi
     ```
-    raspi-config
+    $ raspi-config
     ```
     - Go to ``Advanced options`` -> ``Expand filesystem``
     - Then reboot.
