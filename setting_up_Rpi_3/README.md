@@ -21,13 +21,12 @@ This tutorial deals with configuring Raspberry pi 3 in linux environment.
 - Mount the sd card and you will see 2 partitions.
 - make a blank file and rename it as *ssh* (without any extension) in the *boot* partition.
 - Copy & paste the following lines and replace contents according to your wifi.
-> country=fr
+>`` country=fr
   update_config=1
   ctrl_interface=/var/run/wpa_supplicant GROUP=netdev
-  
   network={
    scan_ssid=1
    ssid="RouterName"
    psk="Security"
    key_mgmt=WPA-PSK
-  }
+  }``
